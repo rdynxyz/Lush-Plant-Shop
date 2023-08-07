@@ -25,7 +25,7 @@
                 </div>
             </div>
             <div class="w-[350px] h-96 rounded-xl outline outline-1 outline-gray-100 shadow-sm px-7 py-4">
-                <img src="../assets/icons/plants/Bamboo 257.svg" class="w-32" alt="" srcset="">
+                <img src="../assets/icons/plants/Bamboo_257.svg" class="w-32" alt="" srcset="">
                 <div class="px-4">
                     <h1 class="text-xl text-primary font-extrabold font-Lato mt-[10px]">Plants Pots</h1>
                     <p class="mt-5 text-secondary ">Add a touch of style to your indoor or outdoor spaces with our collection of pots plants, available in a variety of sizes and designs to fit any decor</p>
