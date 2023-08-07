@@ -5,7 +5,7 @@
             <p class="text-lg font-Poppins font-medium mt-4">Nature's beauty is just a click away with our online flower and plant shop. We offer a <br> wide variety of flowers that will bring a touch of nature to your home!</p>
             <div class="flex justify-center gap-[13PX] mt-9">
                 <button class="px-[50px] py-3 rounded-[3px] bg-[#285A43] font-bold font-Lato">Book Now</button> 
-                <button class="px-9 py-3 rounded-[3px] outline outline-1 font-bold font-Lato flex gap-[10px]"><img src="../assets/icons/play button.svg" alt="" srcset=""> Watch Video</button>
+                <button class="px-9 py-3 rounded-[3px] outline outline-1 font-bold font-Lato flex gap-[10px]"><img src="../assets/icons/play-button.svg" alt="" srcset=""> Watch Video</button>
             </div>
         </div>
 
