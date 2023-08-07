@@ -1,13 +1,13 @@
 <template lang="">
-    <div class="container m-auto flex justify-between h-28 items-center text-white ">
+    <div class="container m-auto flex justify-between h-28 items-center text-white z-[1] relative">
         <div class="">
             <img src="../assets/icons/Lush.svg" alt="" class="w-28">
         </div>
-        <div class="text-lg flex space-x-14 ">
+        <div class="text-lg flex space-x-14 font-Lato font-medium">
             <ul class="flex space-x-14  ">
                 <li v-for="link in links" :key="link">
                     <a :href="link.link"
-                        class="relative after:contents-[''] after:h-[2px] after:w-0 after:left-0 after:bg-accent after:absolute after:bottom-[-6px] after:duration-300 hover:after:w-3 cursor-pointer"> 
+                        class="relative after:contents-[''] after:h-[1px] after:w-0 after:left-0 after:bg-white after:absolute after:bottom-[-6px] after:duration-300 hover:after:w-full cursor-pointer"> 
                         {{link.name}}
                     </a>
                 </li>

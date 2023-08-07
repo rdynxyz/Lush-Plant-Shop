@@ -1,8 +1,12 @@
 <template lang="">
     <div class="absolute h-full w-full top-0 left-0 flex justify-center items-center">
-        <div class="container m-auto text-white text-center space-y-4">
-            <h1 class="text-[64px] font-bold">Nature's Beauty Delivered to You</h1>
-            <p class="text-lg">Nature's beauty is just a click away with our online flower and plant shop. <br> We offer a wide variety of flowers that will bring a touch of nature to your home!</p>
+        <div class="container m-auto text-white text-center">
+            <h1 class="text-[64px] font-bold font-Lato">Nature's Beauty Delivered to You</h1>
+            <p class="text-lg font-Poppins font-medium mt-4">Nature's beauty is just a click away with our online flower and plant shop. We offer a <br> wide variety of flowers that will bring a touch of nature to your home!</p>
+            <div class="flex justify-center gap-[13PX] mt-9">
+                <button class="px-[50px] py-3 rounded-[3px] bg-[#285A43] font-bold font-Lato">Book Now</button> 
+                <button class="px-9 py-3 rounded-[3px] outline outline-1 font-bold font-Lato flex gap-[10px]"><img src="../assets/icons/play button.svg" alt="" srcset=""> Watch Video</button>
+            </div>
         </div>
 
     </div>
