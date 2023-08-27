@@ -1,7 +1,7 @@
 <template lang="">
     <div class="container m-auto flex justify-between h-28 items-center text-white z-[1] relative">
         <div class="">
-            <img src="../assets/icons/Lush.svg" alt="" class="w-28">
+            <img src="/assets/icons/Lush.svg" alt="" class="w-28">
         </div>
         <div class="text-lg flex space-x-14 font-Lato font-medium">
             <ul class="flex space-x-14  ">

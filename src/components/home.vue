@@ -6,7 +6,7 @@
             <div class="flex justify-center gap-[13PX] mt-9">
                 <button class="px-[50px] py-3 rounded-[3px] bg-[#285A43] font-bold font-Lato">Book Now</button> 
                 <button class="px-9 py-3 rounded-[3px] outline outline-1 font-bold font-Lato flex gap-[10px]">
-                    <img src="../assets/icons/play-button.svg" alt="" srcset=""> Watch Video</button>
+                    <img src="/assets/icons/play-button.svg" alt="" srcset=""> Watch Video</button>
             </div>
         </div>
 

@@ -4,9 +4,9 @@
         <div class="mt-9 grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 m-auto gap-10 w-[1280px]">
             <div v-for="card in cards" :key="card" class="w-[280px] h-80 bg-rd-500 rounded-xl relative outline outline-1 outline-gray-100">
                 <div class="w-8 h-8 rounded-full bg-white absolute right-4 top-4 flex items-center justify-center cursor-pointer">
-                    <img src="../assets/icons/love.svg" alt="" srcset="" class='fill-slate-500 hover:'>
+                    <img src="/assets/icons/love.svg" alt="" srcset="" class='fill-slate-500 hover:'>
                 </div>
-                <img :src="`/src/assets/images/${card.src}`" alt="" srcset="" class=" rounded-t-xl">
+                <img :src="`/assets/images/${card.src}`" alt="" srcset="" class=" rounded-t-xl">
                 <div class="bg-white w-full h-16 bottom-0 absolute rounded-b-xl p-3 flex justify-between">
                     <div class="">
                         <h1 class="text-third font-bold font-Lato">{{card.name}}</h1>
