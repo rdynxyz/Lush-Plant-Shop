@@ -6,7 +6,7 @@
                 <div class="w-8 h-8 rounded-full bg-white absolute right-4 top-4 flex items-center justify-center cursor-pointer">
                     <img src="../assets/icons/love.svg" alt="" srcset="" class='fill-slate-500 hover:'>
                 </div>
-                <img :src="`../assets/images/${card.src}`" alt="" srcset="" class=" rounded-t-xl">
+                <img :src="`/src/assets/images/${card.src}`" alt="" srcset="" class=" rounded-t-xl">
                 <div class="bg-white w-full h-16 bottom-0 absolute rounded-b-xl p-3 flex justify-between">
                     <div class="">
                         <h1 class="text-third font-bold font-Lato">{{card.name}}</h1>
