@@ -1,6 +1,5 @@
 <template lang="">
     <div class="">
-
         <div class="flex w-full font-Lato mt-28">
             <div class="w-1/2 text-primary text-3xl font-bold">
                 <h1>We Help choose the most <br> suitable plants for you</h1>

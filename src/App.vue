@@ -3,6 +3,7 @@ import navbar from  './components/navbar.vue'
 import home from  './components/home.vue'
 import secondPage from  './components/second-page.vue'
 import thirdPage from  './components/third-page.vue'
+import fourthPage from  './components/fourth-page.vue'
 </script>
 
 <template>
@@ -14,6 +15,7 @@ import thirdPage from  './components/third-page.vue'
     <div class="container m-auto px-6 space-y-[118px]">
         <secondPage/>
         <thirdPage/>
+        <fourthPage/>
     </div>
   </div>
 </template>
