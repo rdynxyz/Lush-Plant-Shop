@@ -12,7 +12,7 @@ export default {
         'forth' : '#939597',
         'footer' : '#676A6C',
         'accent' : '#F66F4D',
-        'background' : '#FAF8ED'
+        'background' : '#FAF8ED',
       },
     },
     fontFamily: {

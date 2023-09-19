@@ -4,6 +4,7 @@ import home from  './components/home.vue'
 import secondPage from  './components/second-page.vue'
 import thirdPage from  './components/third-page.vue'
 import fourthPage from  './components/fourth-page.vue'
+import fifthPage from  './components/fifth-page.vue'
 </script>
 
 <template>
@@ -16,6 +17,7 @@ import fourthPage from  './components/fourth-page.vue'
         <secondPage/>
         <thirdPage/>
         <fourthPage/>
+        <fifthPage/>
     </div>
   </div>
 </template>

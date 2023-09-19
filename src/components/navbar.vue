@@ -3,8 +3,8 @@
         <div class="">
             <img src="/assets/icons/Lush.svg" alt="" class="w-28">
         </div>
-        <div class="text-lg flex space-x-14 font-Lato font-medium">
-            <ul class="flex space-x-14  ">
+        <div class="text-lg space-x-14 font-Lato font-medium hidden md:block">
+            <ul class="flex space-x-14 ">
                 <li v-for="link in links" :key="link">
                     <a :href="link.link"
                         class="relative after:contents-[''] after:h-[1px] after:w-0 after:left-0 after:bg-white after:absolute after:bottom-[-6px] after:duration-300 hover:after:w-full cursor-pointer"> 
@@ -12,7 +12,7 @@
                     </a>
                 </li>
             </ul>
-            <button class="outline outline-1 px-8 py-1 rounded-[3px]">Call Us</button>
+            <button class="outline outline-1 px-8 py-1 rounded-[3px] hover:bg-primary hover:outline-none duration-150">Call Us</button>
         </div>
     </div>
 </template>
