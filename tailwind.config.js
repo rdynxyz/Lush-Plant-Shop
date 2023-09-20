@@ -4,6 +4,10 @@ export default {
   "./src/**/*.{vue,js,ts,jsx,tsx}",
 ],
   theme: {
+    screen: {
+       
+    },
+
     extend: {
       colors: {
         'primary' : '#285A43',
