@@ -11,8 +11,8 @@
                         {{link.name}}
                     </a>
                 </li>
+                <button class="outline outline-1 px-8 py-1 rounded-[3px] hover:bg-primary hover:outline-none duration-150">Call Us</button>
             </ul>
-            <button class="outline outline-1 px-8 py-1 rounded-[3px] hover:bg-primary hover:outline-none duration-150">Call Us</button>
         </div>
     </div>
 </template>

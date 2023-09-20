@@ -1,8 +1,9 @@
 <template lang="">
   <div>
-    <h1 id="h1" class="text-red text-normal font-bold">
-      G'day! I'm <span class="text-purple-700 relative"></span>
-    </h1>
+    <h1 class="text-primary text-4xl font-Lato font-bold text-center">Our Gallery View</h1>
+    <div class="">
+      sdjhfskaj
+    </div>
   </div>
 </template>
 <script>

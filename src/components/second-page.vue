@@ -1,5 +1,5 @@
 <template lang="">
-    <div class="">
+    <div class="flex flex-col items-center">
         <div class="md:flex w-full font-Lato mt-28">
             <div class="md:w-1/2 text-primary text-3xl font-bold">
                 <h1>We Help choose the most <br> suitable plants for you</h1>
@@ -8,8 +8,8 @@
                 <p>Our selection includes a wide variety of flowers, from classic roses to exotic orchids, as well as a variety of lush indoor and outdoor plants and also offer unique floral arrangements that are perfect for any occasion, whether you're looking to brighten up your home or send a thoughtful gift. </p>
             </div>
         </div>
-        <div class="mt-20 justify-center grid xl:grid-cols-3 gap">
-            <div v-for="card in cards" :key="card" :class="`text-primary w-[350px] h-96 rounded-xl outline outline-1 outline-gray-100 shadow-sm px-7 py-4 hover:-translate-y-2 hover duration-200 ${card.bg}`">
+        <div class="mt-20 grid lg:grid-cols-2 xl:grid-cols-3 place-items-center xl:w-[1260px] gap-y-7 lg:gap-7">
+            <div v-for="card in cards" :key="card" :class="`text-primary w-auto lg:w-[350px] lg:h-96 rounded-xl outline outline-1 outline-gray-100 shadow-sm px-7 py-4 hover:-translate-y-2 hover duration-200 ${card.bg}`">
                 <img :src="`/assets/icons/plants/${card.image}`" class="w-32 fill-transparent" alt="" srcset="">
                 <div class="px-4 text-secondary">
                     <h1 :class="`text-primary text-xl font-extrabold font-Lato mt-[10px] ${card.headertxt}`">{{card.header}}</h1>
