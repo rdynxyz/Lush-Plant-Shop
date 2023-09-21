@@ -1,10 +1,11 @@
 <script setup>
 import navbar from  './components/navbar.vue'
 import home from  './components/home.vue'
-import secondPage from  './components/second-page.vue'
-import thirdPage from  './components/third-page.vue'
-import fourthPage from  './components/fourth-page.vue'
-import fifthPage from  './components/fifth-page.vue'
+import about from  './components/about.vue'
+import offer from  './components/offer.vue'
+import services from  './components/services.vue'
+import gallery from  './components/gallery.vue'
+import testimonials from  './components/testimonials.vue'
 </script>
 
 <template>
@@ -14,10 +15,11 @@ import fifthPage from  './components/fifth-page.vue'
       <home/>
     </div>
     <div class="container m-auto px-6 space-y-[118px]">
-        <secondPage/>
-        <thirdPage/>
-        <fourthPage/>
-        <fifthPage/>
+        <about/>
+        <offer/>
+        <services/>
+        <gallery/>
+        <testimonials/>
     </div>
   </div>
 </template>

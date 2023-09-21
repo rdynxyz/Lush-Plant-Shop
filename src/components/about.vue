@@ -1,7 +1,7 @@
 <template lang="">
     <div class="flex flex-col items-center">
         <div class="md:flex w-full font-Lato mt-28">
-            <div class="md:w-1/2 text-primary text-3xl font-bold">
+            <div class="md:w-1/2 text-primary text-4xl font-extrabold">
                 <h1>We Help choose the most <br> suitable plants for you</h1>
             </div>
             <div class="md:w-1/2 text-secondary mt-4 md:mt-0">

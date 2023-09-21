@@ -1,6 +1,6 @@
 <template lang="">
     <div>
-        <h1 class="text-center text-primary font-bold font-Lato text-4xl">What We Offer To You</h1>
+        <h1 class="text-center text-primary font-extrabold font-Lato text-4xl">What We Offer To You</h1>
         <div class="mt-9 grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 m-auto gap-4 sm:gap-y-10 xl:w-[1280px] place-items-center">
             <div v-for="card in cards" :key="card" class="w-auto h-64 sm:w-[280px] sm:h-80 bg-rd-500 rounded-xl relative outline outline-1 outline-gray-100">
                 <div class="w-8 h-8 rounded-full bg-white absolute right-4 top-4 flex items-center justify-center cursor-pointer">
