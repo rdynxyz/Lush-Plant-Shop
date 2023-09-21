@@ -1,5 +1,5 @@
 <template lang="">
-    <div class="container m-auto flex justify-between h-28 items-center text-white z-[1] relative">
+    <div class="w-full md:container m-auto flex justify-between md:h-28 items-center text-white z-[1] bg-primary/50 backdrop-blur-sm md:bg-transparent fixed md:relative left-0 md:left-auto px-6 py-3 md:px-0">
         <div class="">
             <img src="/assets/icons/Lush.svg" alt="" class="w-28">
         </div>
