@@ -7,7 +7,7 @@
       <div
         v-for="benefit in benefits"
         :key="benefit"
-        :class="`${benefit.bgDesktop} ${benefit.bgAndroid} flex items-center justify-center p-6 2xl:py-14 sm:px-20`"
+        :class="`${benefit.bgDesktop} ${benefit.bgAndroid} flex items-center justify-center p-6 sm:px-20 xl:py-1 xl:px-8 2xl:py-14 2xl:px-20`"
       >
         <div class="">
           <img :src="`/assets/icons/${benefit.picture}`" alt="" class="h-24" />
