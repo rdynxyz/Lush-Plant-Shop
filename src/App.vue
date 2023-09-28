@@ -6,6 +6,7 @@ import offer from  './components/offer.vue'
 import services from  './components/services.vue'
 import gallery from  './components/gallery.vue'
 import testimonials from  './components/testimonials.vue'
+import newsletter from  './components/newsletter.vue'
 </script>
 
 <template>
@@ -20,6 +21,7 @@ import testimonials from  './components/testimonials.vue'
         <services/>
         <gallery/>
         <testimonials/>
+        <newsletter/>
     </div>
   </div>
 </template>
