@@ -1,6 +1,6 @@
 <template lang="">
-    <div>
-        sdfsad
+    <div class="z-50 pt-[518px] ">
+        sdfsadasdsdfds
     </div>
 </template>
 <script>
