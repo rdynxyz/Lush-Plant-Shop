@@ -1,7 +1,7 @@
 <template lang="">
   <div>
     <h1 class="text-center text-primary text-2xl sm:text-4xl font-Lato font-extrabold">
-      What do they say about us
+      What Do They Say About Us
     </h1>
     <div class="mt-9 place-items-center grid md:grid-cols-3 gap-4 xl:gap-0">
       <div
