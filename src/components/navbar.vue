@@ -7,6 +7,7 @@
             <ul class="flex space-x-14 ">
                 <li v-for="link in links" :key="link">
                     <a :href="link.link"
+                        @click="handler"
                         class="relative after:contents-[''] after:h-[1px] after:w-0 after:left-0 after:bg-white after:absolute after:bottom-[-6px] after:duration-300 hover:after:w-full cursor-pointer"> 
                         {{link.name}}
                     </a>
@@ -20,13 +21,18 @@
 export default {
     setup() {
         let links = [
-            { name: "Home", link: "#" },
+            { name: "Home", link: "#", id: 'home'},
             { name: "About Us", link: "#" },
             { name: "Planters", link: "#" },
             { name: "Contact", link: "#" },
         ]
-        return { links }
+        
+        function handler(){
+            alert("hsjkdhasjkldhsakljh")
+        }
+        return { links, handler}
     }
+
 }
 </script>
 <style lang="">

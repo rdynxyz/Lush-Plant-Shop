@@ -1,6 +1,6 @@
 <template lang="">
   <div>
-    <h1 class="text-primary text-4xl font-Lato font-extrabold text-center">Our Gallery View</h1>
+    <h1 class="text-primary text-2xl sm:text-4xl font-Lato font-extrabold text-center">Our Gallery View</h1>
     <div class="flex gap-[10px] mt-9">
       <div class="">
         <img src="/assets/images/gallery/gallery1.webp" alt="" srcset="">

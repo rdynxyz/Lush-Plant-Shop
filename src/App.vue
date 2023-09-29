@@ -7,6 +7,7 @@ import services from  './components/services.vue'
 import gallery from  './components/gallery.vue'
 import testimonials from  './components/testimonials.vue'
 import newsletter from  './components/newsletter.vue'
+import blog from  './components/blog.vue'
 </script>
 
 <template>
@@ -22,6 +23,7 @@ import newsletter from  './components/newsletter.vue'
         <gallery/>
         <testimonials/>
         <newsletter/>
+        <blog/>
     </div>
   </div>
 </template>

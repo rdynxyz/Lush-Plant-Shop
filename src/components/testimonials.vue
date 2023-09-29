@@ -1,11 +1,11 @@
 <template lang="">
   <div>
-    <h1 class="text-center text-primary text-4xl font-Lato font-extrabold">
+    <h1 class="text-center text-primary text-2xl sm:text-4xl font-Lato font-extrabold">
       What do they say about us
     </h1>
-    <div class="mt-9 place-items-center grid grid-cols-3 gap-4 xl:gap-0">
+    <div class="mt-9 place-items-center grid md:grid-cols-3 gap-4 xl:gap-0">
       <div
-        class="bg-[#f8f8f8] xl:w-[360px] h-full xl:h-80 rounded-[10px] p-6 lg:p-12"
+        class="bg-[#f8f8f8] xl:w-[360px] h-full xl:h-80 w-full rounded-[10px] p-6 lg:p-12"
         v-for="testimonial in testimonials"
         :key="testimonial"
       >
