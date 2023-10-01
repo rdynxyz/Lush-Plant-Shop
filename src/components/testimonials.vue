@@ -3,9 +3,9 @@
     <h1 class="text-center text-primary text-2xl sm:text-4xl font-Lato font-extrabold">
       What Do They Say About Us
     </h1>
-    <div class="mt-9 place-items-center grid md:grid-cols-3 gap-4 xl:gap-0">
+    <div class="mt-9 place-items-center grid md:grid-cols-3 gap-4 xl:gap-8">
       <div
-        class="bg-[#f8f8f8] xl:w-[360px] h-full xl:h-80 w-full rounded-[10px] p-6 lg:p-12"
+        class="bg-[#f8f8f8] h-full xl:h-80 w-full rounded-[10px] p-6 lg:p-12"
         v-for="testimonial in testimonials"
         :key="testimonial"
       >
