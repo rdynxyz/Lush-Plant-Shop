@@ -8,10 +8,14 @@ import gallery from  './components/gallery.vue'
 import testimonials from  './components/testimonials.vue'
 import newsletter from  './components/newsletter.vue'
 import blog from  './components/blog.vue'
+import contactFooter from  './components/contact-footer.vue'
+import LoadingScreen from './components/LoadingScreen.vue'
+// import YourStuff from './components/YourStuff.vue'
 </script>
 
 <template>
-  <div class="bg-cover bg-center bg-no-repeat bg-[url('/assets/images/background.webp')] h-[100vh] w-full">
+  <LoadingScreen>
+    <div class="bg-cover bg-center bg-no-repeat bg-[url('/assets/images/background.webp')] h-[100vh] w-full">
     <div class="h-[100vh] px-6">
       <navbar/>
       <home/>
@@ -22,10 +26,14 @@ import blog from  './components/blog.vue'
         <services/>
         <gallery/>
         <testimonials/>
-        <newsletter/>
+      </div>
+      <newsletter/>
+      <div class="container m-auto px-6 space-y-[118px]">
         <blog/>
+        <contactFooter/>
     </div>
   </div>
+  </LoadingScreen>
 </template>
 
 <style scoped>

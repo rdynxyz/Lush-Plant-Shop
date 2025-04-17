@@ -21,20 +21,24 @@
 export default {
     setup() {
         let links = [
-            { name: "Home", link: "#", id: 'home'},
-            { name: "About Us", link: "#" },
-            { name: "Planters", link: "#" },
-            { name: "Contact", link: "#" },
-        ]
-        
-        function handler(){
-            alert("hsjkdhasjkldhsakljh")
-        }
-        return { links, handler}
+            { name: "Home", link: "#", id: 'home' },
+            { name: "About Us", link: '#about' },
+            { name: "Planters", link: "#gallery"},
+            { name: "Contact", link: "#footer" },
+        ];
+        return {links}
     }
-
 }
 </script>
 <style lang="">
     
 </style>
+
+<!-- setup(){
+    let navList = [
+      {name : 'Home', ref: '#', class:'after:w-6 font-bold text-accent'},
+      {name : 'About Us', ref: '#about-us'},
+      {name : 'Contact', ref: '#footer'},
+      {name : 'Outlet', ref: '#'},
+    ];
+    return {navList}; -->
