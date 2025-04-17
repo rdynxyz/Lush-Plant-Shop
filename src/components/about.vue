@@ -10,11 +10,12 @@
                 </div>
             </div>
             <div class="mt-20 grid lg:grid-cols-2 xl:grid-cols-3 place-items-center xl:w-[1260px] gap-y-7 lg:gap-7">
-                <div v-for="card in cards" :key="card" :class="`text-primary w-auto lg:w-[350px] lg:h-96 rounded-xl outline outline-1 outline-gray-100 shadow-sm p-6 hover:-translate-y-2 hover duration-200 ${card.bg}`">
-                    <img :src="`/assets/icons/plants/${card.image}`" class="w-32 fill-transparent" alt="" srcset="">
+                <div v-for="card in cards" :key="card" 
+                :class="`text-primary w-auto lg:w-[350px] lg:h-96 rounded-xl outline outline-1 outline-gray-100 shadow-sm p-4 lg:p-6 hover:-translate-y-2 hover duration-200 flex lg:flex-col ${card.bg}`">
+                    <img :src="`/assets/icons/plants/${card.image}`" class="w-20 lg:w-32 fill-transparent" alt="" srcset="">
                     <div class="md:px-4 text-secondary">
-                        <h1 :class="`text-primary text-xl font-extrabold font-Lato mt-[10px] ${card.headertxt}`">{{card.header}}</h1>
-                        <p :class="`mt-5 ${card.headertxt}`">{{card.description}}</p>
+                        <h1 :class="`text-primary text-xl font-extrabold font-Lato lg:mt-[10px] ${card.headertxt}`">{{card.header}}</h1>
+                        <p :class="`mt-2 lg:mt-5 ${card.headertxt}`">{{card.description}}</p>
                     </div>
                 </div>
             </div>

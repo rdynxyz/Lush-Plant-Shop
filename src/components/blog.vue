@@ -6,16 +6,16 @@
       Interesting blog to read
     </h1>
     <div class="grid md:grid-cols-3 mt-9 gap-8">
-      <div v-for="card in cards" :key="card" class="h-full">
-        <div class="w-full h-80 overflow-hidden rounded-xl flex">
+      <div v-for="card in cards" :key="card" class="h-full md:border-0 rounded-xl bg-gray-100 md:bg-transparent" >
+        <div class="w-full h-80 overflow-hidden rounded-xl">
           <img
             :src="`/assets/images/blog/${card.img}`"
             alt=""
             srcset=""
-            class="object-cover min-w-full min-h-full rounded-xl"
+            class="object-cover min-w-full min-h-full "
           />
         </div>
-        <div class="mt-6">
+        <div class="mt-6 p-5 pt-0 md:p-0">
           <h2 class="text-primary font-Lato text-xl font-bold">
             {{card.header}}
           </h2>
@@ -32,7 +32,7 @@
                   <p class="text-primary text-base font-bold mr-2">
                     Read More
                   </p>
-                  <img src="/assets/icons/arrow.svg" alt="">
+                  <img src="/assets/icons/arrow.svg" alt="" class="hidden lg:block">
                 </div>
             </div>
           </div>

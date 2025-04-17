@@ -3,18 +3,22 @@
     <div class="">
       <img src="/assets/images/fourth.jpg" alt="" />
     </div>
-    <div class="grid sm:grid-cols-2">
+    <div class="grid lg:grid-cols-2">
       <div
         v-for="benefit in benefits"
         :key="benefit"
-        :class="`${benefit.bgDesktop} ${benefit.bgAndroid} flex items-center justify-center p-6 zsm:px-20 xl:py-1 xl:px-8 2xl:py-14 2xl:px-20`"
+        :class="`${benefit.bgDesktop} ${benefit.bgAndroid} flex items-center justify-center p-4 lg:p-6 lg:px-20 xl:py-1 xl:px-8 2xl:py-14 2xl:px-20`"
       >
-        <div class="">
-          <img :src="`/assets/icons/${benefit.picture}`" alt="" class="h-24" />
-          <h1 class="font-bold mt-8 text-xl text-primary">
-            {{ benefit.subject }}
-          </h1>
-          <p class="mt-3 text-secondary">{{ benefit.description }}</p>
+        <div class="flex lg:flex-col items-center lg:items-start">
+          <div class="w-20 h-20 lg:w-24 lg:h-24 flex justify-center items-center mr-2">
+            <img :src="`/assets/icons/${benefit.picture}`" alt="" class="w-3/4 h-3/4 object-contain" />
+          </div>
+          <div class="w-full">
+            <h1 class="font-bold sm:mt-8 text-xl text-primary">
+              {{ benefit.subject }}
+            </h1>
+            <p class="mt-2 lg:mt-3 text-secondary">{{ benefit.description }}</p>
+          </div>
         </div>
       </div>
     </div>
@@ -40,14 +44,14 @@ export default {
         picture: "Temperature.png",
         subject: "Work Smart",
         description: "We work smart, using innovative techniques and technology to streamline our processes",
-        bgDesktop: "sm:bg-[#f8f8f8]",
+        bgDesktop: "lg:bg-[#f8f8f8]",
         bgAndroid: "bg-[#ffffff]",
       },
       {
         picture: "Pruning.png",
         subject: "Excelent Service",
         description: "We pride ourselves on providing excellent service, going above and beyond to meet our customers needs",
-        bgDesktop: "sm:bg-[#ffffff]",
+        bgDesktop: "lg:bg-[#ffffff]",
         bgAndroid: "bg-[#f8f8f8]",
       },
     ];

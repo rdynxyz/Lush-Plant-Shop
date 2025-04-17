@@ -5,14 +5,17 @@
         Feel free to contact us
       </h1>
       <div class="flex gap-5 md:gap-[72px]">
-        <div v-for="socMed in socialMedia" :key="socMed" class="h-14 w-14 border-2 rounded-full flex justify-center items-center">
-          <a :href="socMed.link">
+        <div v-for="socMed in socialMedia" :key="socMed" class="h-14 w-14 border-2 rounded-full flex justify-center items-center hover:-translate-y-1 transition-transform duration-200">
+          <a :href="socMed.link" >
             <img :src="`/assets/icons/social media/${socMed.img}`" alt="">
           </a>
         </div>
       </div>
-      <div class="text-white flex flex-col md:flex-row gap md:gap-16 text-base font-bold text-center">
-        <a v-for="nav in navbar" :key="nav" :href="nav.link">{{nav.name}}</a>
+      <div class="text-white flex flex-col md:flex-row gap md:gap-16 text-base font-bold text-center ">
+        <a v-for="nav in navbar" :key="nav" :href="nav.link"
+          class="relative after:contents-[''] after:h-[1px] after:w-0 after:left-0 after:bg-white after:absolute after:bottom-[-6px] after:duration-300 hover:after:w-full cursor-pointer">
+          {{nav.name}}
+        </a>
       </div>
     </div>
     <div id="footer" class="bg-black h-10 content-end w-full text-white/80 flex items-center justify-center text-base font-bold">

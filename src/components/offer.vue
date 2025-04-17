@@ -28,14 +28,14 @@ import { ref } from 'vue'
 export default {
     setup() {
         const cards = ref ([
-            { name: 'Cereus Tetragonus', price: '$8', realPrice: '$10', src: 'plant1.svg', link: '#', loved: false },
-            { name: 'Old Man Cactus', price: '2', realPrice: '$10', src: 'plant2.svg', link: '#', loved: false },
-            { name: 'Ariocarpus', price: '2', realPrice: '$10', src: 'plant3.svg', link: '#', loved: false },
-            { name: 'Astrophytum ', price: '2', realPrice: '$10', src: 'plant4.svg', link: '#', loved: false },
-            { name: 'Melocactus ', price: '2', realPrice: '$10', src: 'plant5.svg', link: '#', loved: false },
-            { name: 'Kaktus Lilin', price: '2', realPrice: '$10', src: 'plant6.svg', link: '#', loved: false },
-            { name: 'Echinocactus ', price: '2', realPrice: '$10', src: 'plant7.svg', link: '#', loved: false },
-            { name: 'Pilosocereus ', price: '2', realPrice: '$10', src: 'plant8.svg', link: '#', loved: false },
+            { name: 'Cereus Tetragonus', price: '$8', realPrice: '$12', src: 'plant1.svg', link: '#', loved: false },
+            { name: 'Old Man Cactus', price: '$10', realPrice: '$12', src: 'plant2.svg', link: '#', loved: false },
+            { name: 'Ariocarpus', price: '$15', realPrice: '$20', src: 'plant3.svg', link: '#', loved: false },
+            { name: 'Astrophytum ', price: '$10', realPrice: '$12', src: 'plant4.svg', link: '#', loved: false },
+            { name: 'Melocactus ', price: '$12', realPrice: '$16', src: 'plant5.svg', link: '#', loved: false },
+            { name: 'Kaktus Lilin', price: '$10', realPrice: '$12', src: 'plant6.svg', link: '#', loved: false },
+            { name: 'Echinocactus ', price: '$5', realPrice: '$8', src: 'plant7.svg', link: '#', loved: false },
+            { name: 'Pilosocereus ', price: '$8', realPrice: '$12', src: 'plant8.svg', link: '#', loved: false },
         ])  ;
         const toggleLove = (card) => {
             card.loved = !card.loved;
