@@ -4,14 +4,14 @@
       <h1 class="font-Lato font-bold text-3xl sm:text-[32px] text-white z-50 text-center content-center" >
         Feel free to contact us
       </h1>
-      <div class="flex gap-[72px]">
+      <div class="flex gap-5 md:gap-[72px]">
         <div v-for="socMed in socialMedia" :key="socMed" class="h-14 w-14 border-2 rounded-full flex justify-center items-center">
           <a :href="socMed.link">
             <img :src="`/assets/icons/social media/${socMed.img}`" alt="">
           </a>
         </div>
       </div>
-      <div class="text-white flex gap-16 text-base font-bold">
+      <div class="text-white flex flex-col md:flex-row gap md:gap-16 text-base font-bold text-center">
         <a v-for="nav in navbar" :key="nav" :href="nav.link">{{nav.name}}</a>
       </div>
     </div>
