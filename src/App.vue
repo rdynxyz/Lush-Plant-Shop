@@ -26,12 +26,12 @@ import LoadingScreen from './components/LoadingScreen.vue'
         <services/>
         <gallery/>
         <testimonials/>
-      </div>
-      <newsletter/>
-      <div class="container m-auto px-6 space-y-[118px]">
-        <blog/>
-        <contactFooter/>
     </div>
+      <newsletter/>
+    <div class="container m-auto px-6 space-y-[118px]">
+        <blog/>
+      </div>
+      <contactFooter/>
   </div>
   </LoadingScreen>
 </template>

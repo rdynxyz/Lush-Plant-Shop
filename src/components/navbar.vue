@@ -35,7 +35,7 @@
         { name: "Home", link: "#", id: "home" },
         { name: "About Us", link: "#about" },
         { name: "Planters", link: "#gallery" },
-        { name: "Contact", link: "#footer" },
+        { name: "Contact", link: "#contact" },
       ];
       return { links };
     },
