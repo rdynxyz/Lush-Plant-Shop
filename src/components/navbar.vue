@@ -30,7 +30,7 @@
   
   <script>
   export default {
-    setup() {
+    setup() { 
       let links = [
         { name: "Home", link: "#", id: "home" },
         { name: "About Us", link: "#about" },
